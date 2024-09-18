@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Oswald:wght@300&display=swap');
+
+:root{
+    --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100e0f;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color:white;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Afacad', sans-serif;
+    margin-left: 30px;
+
+}
+
+li a:hover{
+    border-bottom: 3px solid;
+    color: var(--main-color);
+}
+
+h1.logo{
+    font-family:'Afacad', sans-serif;
+    font-size: 2rem;
+}
+h1{
+    font-family:'Afacad', sans-serif ;
+}
+
+.header{
+    background-image: url(img/drew-taylor-7liDpl93wt4-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+.main-heading{
+    position: relative;
+    font-size: 5rem;
+    word-spacing: 2px;
+    margin-top: -60px;
+}
+
+.sub-heading{
+    position: relative;
+    font-size: 2.5rem;
+    word-spacing: 2px;
+    margin-bottom:5px ;
+}
+
+.first-btn{
+    padding: 10px 20px;
+    position: absolute;
+    transform: translateY(120px);
+    cursor: pointer;
+    background-color:white;
+    color:var(--primary-color);
+    border: none;
+}
+.story{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background-image: url(img/mockup-graphics-DJyffTDrXQI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-coffee{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 4rem;
+    font-family: 'Afacad', sans-serif;
+    color: white;
+    transform: translateX(100px);
+    padding: -40px;
+}
+button{
+    cursor: pointer;
+    background-color:white;
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    transform: translateY(40px);
+    
+}
+.section-container p{
+    color: white;
+    font-family: 'Afacad', sans-serif;
+    max-width: 700px;
+    margin: 10x 0px;
+    line-height: 20px;
+
+}
+.coffee-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .content-section p {
+    max-width: 500px;
+  }
+  
+  .img-container {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .img-2 {
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .title-two {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    font-family:'Afacad', sans-serif;
+  }
+
+  .content-section p {
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  
+  .products {
+    margin-top: 5rem;
+  }
+  
+  .title-three {
+    font-size: 4rem;
+    margin-left: 27rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .card {
+    border: 2px solid #deab5f;
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+  
+  .card-img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+  }
+  
+  .img-one {
+    background: url(img/mockup-graphics-DJyffTDrXQI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .img-two {
+    background: url(img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .img-three {
+    background: url(img/julian-hochgesang-pgVvMfsv8EM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card-title {
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+  
+  .card .items p {
+    color: #fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+  }
+  
+  /* footer */
+  footer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  footer .container {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  footer .heading-info {
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    line-height: 25px;
+  }
+  
+  span {
+    color: #deab5f;
+  }
+  
+  hr {
+    margin-bottom: 20px;
+    border-color: #deab5f;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .para {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+@media only screen and (max-width: 768px) {
+    .main-headings,
+    .primary-heading {
+      font-size: 2.5rem;
+    }
+  
+    #our-story {
+      text-align: center;
+    }
+  
+    #our-story .title {
+      transform: translateX(50px);
+    }
+  
+    #our-story .line {
+      display: none;
+    }
+  
+    .content-section {
+      text-align: center;
+    }
+  
+    #our-story .img-container .img {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .coffee-container .img-container {
+      margin-top: 5rem;
+      width: 50%;
+    }
+  
+    hr {
+      width: 400px;
+    }
+  
+    .hr-two {
+      display: none;
+    }
+  
+    .para {
+      margin-top: 10rem;
+    }
+}
